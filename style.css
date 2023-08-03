@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.head-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-part ul img{
+    width: 100px;
+}
+.head-part ul{
+    list-style: none;
+    display: flex;
+}
+
+.head-part ul li{
+    padding-right: 20px;
+}
+
+.img-box{
+    padding-top: 30px;
+}
+
+.first-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#heading{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+#news{
+    text-align: center;
+    padding-top: 80px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.press-box{
+    width: 100%;
+padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.submit-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.submit-box button{
+    width: 300px;
+    border: 1px solid black;
+    background: transparent;
+    margin-top: 20px;
+}
+
+.submit-box button input{
+border: none;}
+
+.submit-box p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer{
+    width: 100%;
+    height: auto;  
+    background-color: black; 
+}
+
+.list-box{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px;
+}
+
+.list-box ul{
+    list-style: none;
+    padding-right: 40px;
+    font-size: 15px;
+}
+
+span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-inline: 40px;
+}
+
+span ul{
+    display: flex;
+    list-style: none;
+}
+
+span ul li{
+    padding-inline: 10px;
+}
+
+.line hr{
+margin-inline: 20px;
+color: white;
+}
+
+.copyright{
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 30px;
+
+}
+.hide-btn li{
+    display: none;
+}
+
+.copyright ul{
+    display: flex;
+    list-style: none;
+    font-size: 12px;
+}
+
+.copyright ul li{
+    padding-inline: 10px;
+}
+
+.footer a{
+color: white;
+padding-left: 40px;
+}
+
+@media (max-width: 768px) {
+    .main-conyainer{
+        width: 100%;
+        height: auto;
+    }
+    
+    .head-part{
+        width: 100%;
+        height: auto;
+        padding-inline: 30px;
+    }
+
+.head-part ul:nth-child(3){
+    display: none;
+}
+
+.head-part ul:nth-child(4){
+    display: none;
+}
+
+.hide-btn li{
+    display: inline;
+}
+
+.img-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card{
+    margin-top: 20px;
+}
+.first-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.press-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.slider{
+    width: 100%;
+    height: auto;
+}
+
+.black-box{
+    width: 100%;
+    height: auto;
+}
+.submit-box{
+    width: 100%;
+    height: auto;
+}
+
+.submit-box p{
+    font-size: 14px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+}
+
+.copyright{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.footer a{
+    text-align: center;
+}
+}
